@@ -1,0 +1,61 @@
+{
+	"roles": [
+		{"role":"role blocker", "wolf":true},
+		{"role":"role seer", "wolf":true},
+		{"role":"detective", "wolf":false},
+		{"role":"pastry chef", "wolf":false},
+		{"role":"minion", "wolf":false}
+	],
+	"confirmEjects": true,
+	"muteDead": false,
+	"nightZeroPeek": false,
+	"votingTime":1,
+	"reminderTime":0.5,
+	"roleDetails":
+	{
+		"vigilante":{
+			"ammoCount":1,
+			"peeksAs":"villager"
+		},
+		"cultist":{
+			"peeksAs":"villager",
+			"nightZero":false
+		},
+		"fool":{
+			"peeksAs":"villager"
+		},
+		"doctor":{
+			"peeksAs":"villager"
+		},
+		"villager":{
+			"peeksAs":"villager"
+		},
+		"detective":{
+			"peeksAs":"villager",
+			"nightZero":true
+		},
+		"werewolf":{
+			"peeksAs":"werewolf"
+		},
+		"child":{
+			"peeksAs":"villager"
+		},
+		"minion":{
+			"peeksAs":"villager"
+		},
+		"pastrychef":{
+			"peeksAs":"villager",
+			"ammoCount":1
+		},
+		"roleseer":{
+			"peeksAs":"villager",
+			"nightZero":false
+		},
+		"roleblocker":{
+			"peeksAs":"villager",
+			"nightZero":false
+		}
+	},
+	"wolfChannel":"776893290967597108",
+	"deadChannel":"792418739869581316"
+}
